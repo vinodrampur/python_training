@@ -1,0 +1,4 @@
+***********DO NOT DO GOOGLE/CHATGPT FOR THESE AT ANY COST************
+Make sure follow the coding guideline --- vvvvvv imp.
+1. Practice most of the string inbuilt functions.
+2. Practice -ve indexing and slicing with postive and negative step value

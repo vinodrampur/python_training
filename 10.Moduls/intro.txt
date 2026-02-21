@@ -1,0 +1,29 @@
+Module - every .py file is a module
+package - is a group of modules for eg 5 modules under 1 folder AND there should be an empty file __init__.py file - this is mandatory.
+Library -  is a collection or a group of packages.
+
+
+eg numpy, pandas, etc are libraries 
+sys, os, time, math - modules 
+
+file1.py
+sum(),sub(),var1,var2
+
+file2.py
+mul(), div(), var3, var4
+
+multiple syntax to do this in file2.py
+a. import file1
+all the contents of file1 are imported and can be used inside file2. 
+
+file1.sum()
+
+import file1 as f1 
+f1.sum()
+
+the above is not a very efficiemnt way of doing the same, as we are only using sum() but we get all sub(),var1,var2 and we dont need them.
+
+b. from file1 import sum() 
+now yo dont need file1. notation, rather use directly sum()
+
+
