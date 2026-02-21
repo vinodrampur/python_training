@@ -1,0 +1,4 @@
+this is the first line of error in the log file 
+ followed by the seocnd error line 
+ and a third line of logs and error 
+ this is the fourth line 

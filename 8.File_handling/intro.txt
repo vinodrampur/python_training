@@ -1,0 +1,47 @@
+files are used to store data
+typical size of the files are 20mb, 1gb, 100gb.
+
+beyond normal size or storage, we goto DB
+RDBMS
+
+Python will automatically close the file connection for you.
+BUT we are going to learn that in the last. you will be using it while working.
+
+modes in file handling.
+14 modes in file handling
+text file or log files
+
+modes:
+r - read a file, and if the files doesnt exists - it will give us an error that FileNotFoundError
+w - write to a file,and if the files doesnt exists - it will create a new file and if it exists it will "overrrite".
+a - append to a file(similar to w except if the files exisits it will append at the end of file EOF)
+r+ - read and write
+w+ - write and read
+a+ - append and read 
+x - exclusive mode - based o file system handling
+
+same 7 in binary mode and it changes to b 
+rb - read a file, and if the files doesnt exists - it will give us an error that fileDoesntExists
+wb - write to a file,and if the files doesnt exists - it will create a new file and if it exists it will "overrrite".
+ab - append to a file(similar to w except if the files exisits it will append at the end of file EOF)
+rb+ - read and write
+wb+ - write and read
+ab+ - append and read 
+xb - exclusive mode - based o file system handling
+
+
+steps
+Step 1: Create a connection to the file that you want to access or write to it or read from it.
+Step 2: File operations/handling based on your requirements.
+Step 3: clise the connection or the file obj pointer -- vvvvvvvvvv imp for interviews.
+
+how do we open a connection to the file
+using the open()
+
+properties of a file 
+name 
+mode
+closed or not
+readable or not 
+writable or not 
+

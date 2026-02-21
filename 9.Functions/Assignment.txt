@@ -1,0 +1,24 @@
+***********DO NOT DO GOOGLE/CHATGPT FOR THESE AT ANY COST************
+Make sure follow the coding guideline --- vvvvvv imp.
+1. Practice most of the string inbuilt functions.
+2. Practice -ve indexing and slicing with postive and negative step value
+3. Using shorthand if - try to find the largest of 3 nos, A,B,C 
+3.a  Challenge mode - Also add when all 3 are same, A=B=C 
+
+4. file handling - do not use the with and write  a script/program to write to a log file many lines - may be use a loop for writing 100lines
+then read those lines and find only "error"  and "failure" but there are other variants as well, eg errors, failures
+Challenge mode: also print those lines which have those error or failures in them.
+5. is there  a way to evaluate more than one expression inside a lambda. yes, how?
+a=lambda x,y:x+y,x-y
+
+print(a(3,1))
+fix this.
+
+6.how to fix this hpow to make some senses of it?
+#area_of_cube=lambda l,b,**h:l*b*h
+#print(area_of_cube(4,3,a=2,c=3)) # 12*{a:2,c:3}
+
+7.Orig Q: Find the squares of the even numbers and show them in a list and then print the sum of that list of elements.
+map,filter,reduce, with lambda - all in one line of code.
+
+[4,16,36,64,100] -> sum of all these - should be the output
